@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './routes.js'
+import axios from 'axios'
+
+axios.defaults.baseURL = "https://cis410-fa20-ryan-api.azurewebsites.net";
 
 new Vue({
   el: '#app',
