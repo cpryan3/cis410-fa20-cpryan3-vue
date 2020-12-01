@@ -54,7 +54,7 @@ export default {
 
                 if(myError.response.data == 'invalid user crendentials'){
                     this.credentialsError = true
-                }
+                }else{this.loginError = true}
             })
         }
     }
