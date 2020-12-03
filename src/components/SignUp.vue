@@ -13,7 +13,7 @@
             </div> 
        
             
-            <div class="form-group"><label for="password-input">Password</label> <input type="password" id="password-input" placeholder="Password" required="required" value="asdfasdf" class="form-control" v-model="password">
+            <div class="form-group"><label for="password-input">Password</label> <input type="password" id="password-input" placeholder="Password" required="required"  class="form-control" v-model="password">
             
             </div> <button type="submit" class="btn btn-primary">Submit</button> <p id="error-signup" class="text-danger">{{errorMessage}}</p>
             
@@ -42,11 +42,11 @@ export default {
             const myFormData = {
                 FName: this.FName,
                 LName: this.LName,
-                ComapnyName: this.CompanyName,
-                Email: this.email,
+                CompanyName: this.CompanyName,
+                Email: this.Email,
                 password: this.password
             }
-            // console.log(myFormData)
+            console.log(myFormData)
 
             axios.post("/reviewer", myFormData)
                 .then((myResponse)=>{

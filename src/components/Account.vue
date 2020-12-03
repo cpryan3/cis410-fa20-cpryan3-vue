@@ -13,7 +13,7 @@
             </thead>
             <tbody>
                 <tr v-for="thisReview in reviewsByUser" :key="thisReview.PostPK">
-                    <th><router-link :to="`/videogame/${thisReview.VideoGameFK}`">{{thisReview.Title}}</router-link></th>
+                    <th><router-link :to="`/videogame/${thisReview.VideoGamePK}`">{{thisReview.Title}}</router-link></th>
                     <th>{{thisReview.Synopsis}}</th>
                     <th>{{thisReview.Score}}</th>
                 </tr>
