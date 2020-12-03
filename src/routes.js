@@ -16,8 +16,8 @@ const routes = [
     {path: '/', component: Home},
     {path: '/account', component: Account},
     {path: '/signin', component: Login},
-    {path: '/videogames', component: VideoGame},
-    {path: '/videogames/:pk', component: VideoGameDetail,
+    {path: '/videogame', component: VideoGame},
+    {path: '/videogame/:pk', component: VideoGameDetail,
         children: [
             {path: 'review', component: ReviewCreate}
         ]},

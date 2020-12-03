@@ -37,7 +37,7 @@ export default {
                 email: this.email,
                 password: this.password
             };
-            // console.log("form data:", myFormData)
+            console.log("form data:", myFormData)
 
             axios.post("/reviewer/login", myFormData)
             .then(myResponse=>{
