@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <router-link class="nav-link" to="/videogames">Video Games</router-link>
+        <router-link class="nav-link" to="/videogame">Video Games</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/account">My Account</router-link>
@@ -26,12 +26,12 @@
        <li class="nav-item">
           <button class='btn btn-outline-warning'>Log Out</button>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <router-link class="nav-link" to="/videogames">Video Games</router-link>
       </li>
       <li class="nav-item">
         <router-link class="nav-link" to="/videogames">Video Games</router-link>
-      </li>
+      </li> -->
     
     </ul>
     
